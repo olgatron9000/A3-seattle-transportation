@@ -1,10 +1,4 @@
 (function() {
-	const csvFile = require("./CSV/Avg-Burke-Data.csv");
-	const ped = require("./SVG/ped.svg");
-	const bike = require("./SVG/bike.svg");
-	const pedReverse = require("./SVG/ped-reverse.svg");
-	const bikeReverse = require("./SVG/bike-reverse.svg");
-	const d3Legend = require("d3-svg-legend");
 	// Keep track of the selected time so that if the user clicks to a new
 	// time, we don't continue populating the icons from the old time
 	// in createIcons!
